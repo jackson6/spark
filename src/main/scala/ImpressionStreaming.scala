@@ -86,7 +86,7 @@ object DirectKafkaImpressionCount {
       // Get the impression stream from the source
       val stream = createKafkaStream(ssc)
 
-      //Print the streaming
+      //Print the streamin
       stream.print
 
       stream.foreachRDD(
